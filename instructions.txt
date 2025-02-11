@@ -1,0 +1,7 @@
+sudo apt-get install python-dev python3.7-dev
+python3.7 -m pip install --upgrade pip setuptools wheel
+python3.7 -m pip install pyzmq
+
+python3 publish_server.py
+
+python3 client.py
